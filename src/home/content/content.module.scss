@@ -1,0 +1,65 @@
+/**
+ 内容样式
+ @author 李元坝
+ @since 2022-02-25
+*/
+.content {
+  background: rgba(128, 128, 128, 0.08);
+  height: 85vh;
+  div {
+    height: 400px;
+  }
+  /*3列布局方框样式*/
+  .contentCol {
+    color: #001529;
+    font-size: 3rem;
+    background: yellow;
+    line-height: 400px;
+  }
+
+  /*div容器样式*/
+  .container {
+    height: 500px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  /*div浮动框样式*/
+  .top {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #999;
+    cursor: pointer;
+    line-height: 250px;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 0;
+    position: absolute;
+  }
+  /*div浮动框被选中样式*/
+  .top:hover {
+    box-shadow: 0 0 10px #ccc;
+    z-index: 999;
+  }
+  /*div浮动框A样式*/
+  .A {
+    top: 100px;
+    left: 100px;
+    background: #da110a;
+  }
+  /*div浮动框B样式*/
+  .B {
+    top: 150px;
+    left: 150px;
+    background: #d5a913;
+  }
+  /*div浮动框C样式*/
+  .C {
+    top: 200px;
+    left: 200px;
+    background: #6031d4;
+  }
+
+}

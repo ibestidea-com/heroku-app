@@ -1,0 +1,42 @@
+/**
+ 页头样式
+ @author 李元坝
+ @since 2022-02-25
+*/
+.header {
+  color: #ffffff;
+  background-color: #001529;
+  padding: 0 10px;
+  height: 64px;
+  line-height: 64px;
+  /*logo样式*/
+  .logo {
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+    margin-top: 10px;
+    font-size: 50px;
+  }
+  /*标题样式*/
+  .title {
+    float: left;
+    display: inline-block;
+    height: 50px;
+    margin-top: 6px;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /*头像样式*/
+  .avatar {
+    float: right;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+}
