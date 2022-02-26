@@ -1,7 +1,7 @@
 
 npm install moralis# Getting Started with Create React App
 
-This project was bootstrapped with [heroku-app](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [heroku-app](https://github.com/ibestidea-com/heroku-app).
 
 ## Available Scripts
 
@@ -45,3 +45,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+##这是Coding线下试题
+
+### 描述：创建一个简单的react app demo，可以使用相关区块链库（moralis）来链接 区块链钱包（metamask），并调用create API接口实现创建账号的功能。
+
+### 步骤：
+### 1、在Github上创建一个repo，并将repo分享给editorai 账号
+### 2、使用create react app和typescript创建并初始化项目demo
+### 3、安装并了解 chrome浏览上的区块链钱包metamask插件（https://metamask.io）
+### 4、初步了解 moralis SDK（https://docs.moralis.io/introduction/readme https://github.com/ethereum-boilerplate/ethereum-boilerplate ）
+### 5、开发1：使用moralis SDK来链接metamask插件，并获取当前的钱包地址（address）
+### 6、开发2：使用如下API来创建账号：
+`curl -X POST https://enigmatic-gorge-44583.herokuapp.com/account/create -d '{"address": "0xxxxxxx"}' -H "Content-Type: application/json"`
+### 7、开发3：创建前端页面，可仅创建一个首页菜单（需设置样式、排版等），如：
+### 8.开发4：做一个3列布局
+`1、ABC跟随外层父级宽度自适应
+ 2、间距均分
+ 3、A靠左无间距，C靠右无间距`
+### 9.通过CSS实现，鼠标移入到不同的色块，该色块显示在最上层
+### 10.将create API 返回的信息显示在前端页面上
+### 11.上传代码到github repo
